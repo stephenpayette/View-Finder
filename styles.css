@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#hero-section{
+    height: 100vh;
+    background: url("img/into\ the\ spiderverse\ poster.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    position: absolute;
+    color: white;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading{
+    color: white;
+    font-size: 3em;
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#slogan{
+    color: white;
+    padding-bottom: 100px;
+}
+
+#button{
+    height: 50px;
+    background-color: red;
+}
