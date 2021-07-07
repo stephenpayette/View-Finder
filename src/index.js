@@ -6,7 +6,7 @@ button.addEventListener("click", function(){
     ourRequest.onload = function() {
         var ourData = JSON.parse(ourRequest.responseText);
         renderHTML(ourData);
-        console.log(ourData);
+        console.log(ourData.title);
     };
     ourRequest.send();
 });
