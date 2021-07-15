@@ -7,6 +7,7 @@ button.addEventListener("click", function(){
         var ourData = JSON.parse(ourRequest.responseText);
         renderHTML(ourData);
         console.log(ourData.title);
+        console.log(ourData.tagline);
     };
     ourRequest.send();
 });

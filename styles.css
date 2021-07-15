@@ -33,7 +33,7 @@ body{
     font-size: 3em;
 }
 
-hr{
+#line{
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -51,4 +51,28 @@ hr{
 #button{
     height: 50px;
     background-color: red;
+}
+
+#question1{
+    height: 100vh;
+    width: 100%;
+    background: url("img/Dunkirk.img");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+#question2{
+    height: 100vh;
+    width: 100%;
+    background: url("img/portrait-of-a-lady-on-fire.img");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
 }
