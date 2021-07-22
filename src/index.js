@@ -21,3 +21,19 @@ function getRandomArbitrary(min, max) {
 function renderHTML(data) {
 
 }
+
+//print out two values from the array
+genre = ["Action","Comedy","Drama","Horror"];
+
+language = ["English", "French", "Korean", "German"];
+
+console.log(genre[1])
+console.log(language[3])
+
+let
+
+
+
+
+
+
